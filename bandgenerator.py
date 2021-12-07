@@ -1,5 +1,7 @@
 def main ():
     print("Welcome to the Band Name Generator!")
+    print("We will help you decide on a name for your band.")
+    print("First we'll need you to answer a few questions.")
     bandgenerator()
 
 def bandgenerator():
