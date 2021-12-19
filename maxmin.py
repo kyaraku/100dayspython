@@ -1,11 +1,10 @@
 def main():
     print("The following prompts will determine the difference between two numbers.")
-    max()
-    
-def max():
     num1 = int(input("Enter first number for comparison: "))
     num2 = int(input("Enter second number for comparison: "))
+    max(num1, num2)
     
+def max(num1, num2):
     if num1 > num2:
         print(f"{num1} is greater than {num2}.")
     elif num2 > num1:
