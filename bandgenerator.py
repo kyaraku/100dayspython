@@ -9,6 +9,7 @@ def bandgenerator():
     print(cityname)
     petname = input("What's your pet's name? ")
     print(petname)
-    print("Your band name could be ", cityname, petname)
+    favorite_color = input("What's your favorite color? ")
+    print("Your band name could be ", cityname, petname, favorite_color)
 
 main()
